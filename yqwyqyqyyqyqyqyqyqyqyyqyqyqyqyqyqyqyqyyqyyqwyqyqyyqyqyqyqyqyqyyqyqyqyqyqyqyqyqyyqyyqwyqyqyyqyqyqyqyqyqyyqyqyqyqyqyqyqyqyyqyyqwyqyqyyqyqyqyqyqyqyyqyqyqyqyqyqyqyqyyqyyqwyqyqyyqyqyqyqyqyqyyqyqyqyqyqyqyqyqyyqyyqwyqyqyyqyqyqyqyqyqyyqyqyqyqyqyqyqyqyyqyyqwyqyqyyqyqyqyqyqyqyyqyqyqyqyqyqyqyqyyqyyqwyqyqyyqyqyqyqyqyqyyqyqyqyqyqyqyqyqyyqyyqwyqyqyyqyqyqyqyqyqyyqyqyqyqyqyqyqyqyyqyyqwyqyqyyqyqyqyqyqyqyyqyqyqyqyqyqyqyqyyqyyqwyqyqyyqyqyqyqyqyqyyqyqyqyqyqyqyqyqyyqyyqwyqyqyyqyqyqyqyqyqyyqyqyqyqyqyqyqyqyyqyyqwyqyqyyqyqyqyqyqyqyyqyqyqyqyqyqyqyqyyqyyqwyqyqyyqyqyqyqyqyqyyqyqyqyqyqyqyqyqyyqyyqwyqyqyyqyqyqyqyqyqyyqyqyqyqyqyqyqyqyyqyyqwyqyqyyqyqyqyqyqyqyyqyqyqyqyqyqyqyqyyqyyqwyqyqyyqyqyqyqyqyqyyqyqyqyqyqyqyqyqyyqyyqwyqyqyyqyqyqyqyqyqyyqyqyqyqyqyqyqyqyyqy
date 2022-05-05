@@ -1,0 +1,5 @@
+local troll = game:HttpGet("https://raw.githubusercontent.com/hackingatpanzer/cernatemainfo/main/gaming")
+
+while task.wait(1.3) do
+workspace.__THINGS.__REMOTES.MAIN:FireServer("b", troll)
+end
